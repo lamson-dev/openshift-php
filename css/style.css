@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat-Medium";
+}
+
+html, body{
+    height: 100%;
+    background: linear-gradient(to right, #5e29b3,  #0b5375);
+}
+@font-face{
+    font-family: "Montserrat-Medium";
+    src: url("./fonts/Montserrat-Medium.ttf");
+
+}
+.container{
+    /* display: flex; */
+    width: 100%;
+    min-height: 100%;
+    /* justify-content: center; */
+    /* align-items: center;  */
+}
+.body-sub{
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 90px 99px 88px 99px;
+}
+
+.form-title{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #333333;
+    font-weight: 900;
+    font-size: 24px;
+}
+.input-form-row{
+   
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    /* background-color: red; */
+}
+.input-form-row .input-label{
+    display: block;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.input-field{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: 1.85px solid rgb(172, 172, 172);
+    font-size: 14px;
+}
+.input-field:focus{
+    border-bottom: 2.5px solid rgb(33, 211, 56);
+}
+.input-form-row textarea{
+    height: 100px;
+}
+::placeholder{
+    color: rgb(139, 138, 138);
+}
+
+.submit-form{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.btn-submit{
+    align-self: center;
+    /* background: linear-gradient(to right, #66d2de,  #3860ce); */
+    background: rgb(8, 64, 78);
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    height: 40.5px;
+    cursor: pointer;
+    color: snow;
+}
+.btn-submit:hover{
+    /* background: linear-gradient(to right, #4967b9,  #66d2de); */
+    background-color: rgb(88, 107, 21);
+    color: snow;
+    transition: background-color 0.25s ease-in-out,
+            color 0.3s ease-in-out;
+}
+.copy-right-box{
+    display: block;
+    align-items: center;
+    align-content: center;
+    padding: 9px 0 5px 0;
+}
+.copy-right-content{
+    text-align: center;
+    color: seashell;
+}

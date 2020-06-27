@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="body-sub">
+            <form action="http://localhost/new-system/api/product/create.php" method="post" id="create_form">
+                <span class="form-title">INPUT FORM</span>
+                <div class="input-form-row">
+                    <label for="name" class="input-label">Product Name</label>
+                    <input class="input-field" type="text" name="name" id="name" placeholder="Enter your product name">
+                </div>
+                <div class="input-form-row">
+                    <label for="" class="input-label">Price</label>
+                    <input class="input-field" type="number" name="price" id="price" min="1" placeholder="Enter your product price">
+                </div>
+                <div class="input-form-row">
+                    <label for="description" class="input-label">Description</label>
+                    <textarea class="input-field" name="description" id="description" cols="30" rows="50" placeholder="Write somethings about your product"></textarea>
+                </div>
+                <div class="input-form-row">
+                    <label for="categories" class="input-label">Categories</label>
+                    <select class="input-field" name="category_id" id="">
+                        <option value="1">Fashsion</option>
+                        <option value="2">Electronic</option>
+                        <option value="3">Motors</option>
+                        <option value="5">Movies</option>
+                        <option value="6">Books</option>
+                        <option value="13">Sports</option>
+                    </select>
+                </div>
+
+                <div class="submit-form">
+                    <input class="btn-submit" type="submit" value="Submit">
+                </div>
+            </form>
+          
+        </div>
+        
+        <div class="copy-right-box">
+            <p class="copy-right-content">
+                Copyright by Lam Son
+            </p>
+        </div>
+    </div>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
